@@ -1,0 +1,169 @@
+body{
+    background-image: url("../images/full-bloom.png");
+    font-family: Arial, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.navbar{
+    margin-bottom: 25px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    border-bottom: solid 4px #4aaaa5;
+}
+
+main{
+    padding: 25px;
+    background-color: rgb(236, 236, 236);
+    border: solid 1px #4aaaa5;
+    margin-bottom: 25px;
+}
+
+main h2,h5{
+    color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    border-bottom: solid 1px #4aaaa5;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.first-h5{
+    color: black;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    border-bottom: solid 1px black;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+main h2{
+    margin-bottom: 20px;
+}
+
+main p{
+    line-height: 30px;
+    padding-bottom: 5px;
+}
+
+/* .drink-picture {
+    position: relative;
+    display: inline-block;
+  } */
+  
+  .picture .description {
+    visibility: hidden;
+    width: 300px;
+    background-color: white;
+    color: #343a40;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    border: 3px solid #4aaaa5;
+  
+    /* Position the description */
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+.picture:hover .description {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .title .skills {
+    visibility: hidden;
+    width: 300px;
+    background-color: white;
+    color:#343a40;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px;
+    border: 3px solid #4aaaa5;
+  
+    /* Position the skills */
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+.title:hover {
+    text-decoration: none;
+}
+
+.title:hover .skills {
+    visibility: visible;
+    opacity: 1;
+  }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #343a40;
+    border-top: solid 4px #4aaaa5;
+    text-align: center;
+}
+
+.copyright{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+
+img{
+    width: 100%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.andrePicture{
+    float: left;
+    width: 25%;
+}
+
+.instructions{
+    border: solid 1px black;
+}
+
+.logos{
+    height: 5%;
+    width: auto;
+    margin-top: 10px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+#sendButton {
+    background-color: #4aaaa5;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 10px;
+}
+
+#sendButton:hover {
+    color: black;
+  }
+
+.contact {
+    border-bottom: none;
+    color: black;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .andrePicture{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .andrePicture{
+        width: 100%;
+    }
+}
